@@ -37,31 +37,33 @@ La interfaz de usuario es simple e intuitiva, compuesta por un área de entrada 
 2. ### Proceso de Encriptación ###
 Al presionar el botón **"Encriptar"**, el texto ingresado se transforma según las siguientes reglas:
 
-**e** se convierte en **enter**.&nbsp;
-**i** se convierte en **imes**.&nbsp;
-**a** se convierte en **ai**.&nbsp;
-**o** se convierte en **ober**.&nbsp;
-**u** se convierte en **ufat**.&nbsp;
-**Ejemplo:**
+**e** se convierte en **enter**.  
+**i** se convierte en **imes**.  
+**a** se convierte en **ai**.  
+**o** se convierte en **ober**.  
+**u** se convierte en **ufat**.  
 
-Entrada: **"Hola Mundo"**
-Salida Encriptada: **"Hoberlai Mufatndober"**
+**Ejemplo:**  
+
+Entrada: **"Hola Mundo"**  
+Salida Encriptada: **"Hoberlai Mufatndober"**  
 
 3. ### Proceso de Desencriptación ###
-Al presionar el botón "Desencriptar", el texto encriptado vuelve a su forma original:
+Al presionar el botón **"Desencriptar"**, el texto encriptado vuelve a su forma original:
 
-**enter** se convierte en **e**
-**imes** se convierte en **i**
-**ai** se convierte en **a**
-**ober** se convierte en **o**
-**ufat** se convierte en **u**
-Ejemplo:
+**enter** se convierte en **e**.  
+**imes** se convierte en **i**.  
+**ai** se convierte en **a**.  
+**ober** se convierte en **o**.  
+**ufat** se convierte en **u**.  
 
-Entrada Encriptada: **"Hoberlai Mufatndober"**
-Salida: **"Hola Mundo"**
+**Ejemplo:**
+
+Entrada Encriptada: **"Hoberlai Mufatndober"**  
+Salida: **"Hola Mundo"**  
 
 4. ### Copiar Texto ###
-Cuando el usuario hace clic en el botón "Copiar", el texto en el área de resultado se selecciona y se copia al portapapeles del usuario, permitiendo pegar el texto en otro lugar.
+Cuando el usuario hace clic en el botón **"Copiar"**, el texto en el área de resultado se selecciona y se copia al portapapeles del usuario, permitiendo pegar el texto en otro lugar.
 
 
 ## Contribuciones 
@@ -71,4 +73,4 @@ Cuando el usuario hace clic en el botón "Copiar", el texto en el área de resul
 Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
 
 ## Autor
-Creado por Luigi Gamarra.
+Creado por Luigi Gamarra Oviedo.
