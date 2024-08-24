@@ -1,5 +1,6 @@
 # Encriptador de Texto
 
+![imagen](https://github.com/luigigake76/Encriptador/blob/main/encriptador.png)
 ## Descripción
 El **Encriptador de Texto** es una aplicación web sencilla que permite a los usuarios encriptar y desencriptar texto utilizando un método de reemplazo de caracteres. Esta herramienta es útil para mantener la privacidad de los mensajes simples al transformarlos en una forma encriptada que sólo puede ser revertida utilizando la aplicación.
 
