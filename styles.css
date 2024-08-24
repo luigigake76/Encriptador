@@ -1,0 +1,235 @@
+/* Estilos base */
+:root{
+    --mainColor: #F3F5FC;
+    --colorGyey: #D8DFE8;
+    --colorGreyDark: #495057;    
+    --colorBlue: #0A3871;
+    --fontInter: "Inter", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--mainColor);
+    margin: 0;
+    font-family: var(--fontInter);
+    
+}
+
+.logo {
+    font-size: 4.8rem;
+    color: var(--colorBlue);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.container {
+    background-color: var(--mainColor);
+    width: 100%;
+    max-width: 1440px;
+    height: 900px;          
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.left-pane {    
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--mainColor);
+}
+
+.form{    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100dvh;
+}
+
+.text-input {
+    width: 100%;
+    height: 87%;
+    background-color: transparent;
+    font-size: 3.2rem;
+    color: var(--colorBlue);
+    font-family: var(--fontInter);
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 10px;
+}
+
+.info {
+    font-size: 1.4rem;
+    color: var(--colorGreyDark);
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.encrypt-btn, .decrypt-btn, .copy-btn {
+    padding: 1rem 2rem;
+    border-radius: 24px; 
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 328px;
+    height: 67px;
+    border: 1px solid var(--colorBlue);
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.encrypt-btn {
+    background-color: var(--colorBlue);
+    color: white;   
+}
+
+.encrypt-btn:hover {
+    background-color: var(--colorBlue);
+}
+
+.decrypt-btn {
+    background-color: var(--colorGyey);
+    color: var(--colorBlue);         
+}
+
+.decrypt-btn:hover {
+    background-color: var(--mainColor);
+}
+
+.right-pane {
+    width: 25%;
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    box-shadow: 10px 10px 20px rgba(180, 174, 174, 0.867);
+}
+
+.output {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100dvh;
+}
+
+.output img {      
+    margin-bottom: 20px;
+    width: 95%;
+}
+
+.output h2 {
+    font-size: 2.4rem;    
+    color: var(--colorGreyDark);
+    font-weight: 700;
+}
+
+.output p {
+    font-size: 1.6rem;
+    color: var(--colorGreyDark);
+    margin-top: 8px;
+}
+
+.copy-btn{
+    background-color: transparent;
+    color: var(--colorBlue);
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    padding-left: 11rem;
+    text-align: left;
+    background-color: var(--mainColor);
+    color: var(--colorGreyDark);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .output {
+        height: auto;
+        width: 100%;
+        align-items: center;
+
+    }
+    .container {
+        width: auto;
+        flex-direction: column;        
+        height: auto;
+        margin-left: 1rem;
+    }
+
+    .form {
+        height: 40dvh;
+
+    }
+
+    .left-pane, .right-pane {
+        height: auto;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .text-input {
+        height: 30vh;
+    }
+
+    .output img{
+        display: none;
+    
+    }
+    .footer {
+        padding-left: 3rem;
+    }
+    .footer p {
+        text-align: center;
+
+    }
+}
+
+@media (max-width: 375px) {
+
+    .container {
+        width: auto;
+    }   
+
+    .buttons {
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    .encrypt-btn, .decrypt-btn, .copy-btn {
+        
+        width: 300px;
+        
+    }
+
+    .footer {
+        padding-left: 1rem;
+    }
+
+}
+
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="logo">
+        <img src="./img/LogoAlura.svg" alt="Logo Alura">
+    </header>
+    
+    <main class="container">        
+        <section class="left-pane">            
+            <form class="form">
+                <textarea id="text-input" class="text-input" placeholder="Ingrese el texto aquí" aria-label="Área de texto"></textarea>
+                <div class="info">
+                    <img src="./img/advertencia.svg" alt="alert" /><span
+              >solo letras minúsculas y sin acento</span>
+                </div>
+                <div class="buttons">
+                    <button type="button" class="encrypt-btn" onclick="encryptText()">Encriptar</button>
+                    <button type="button" class="decrypt-btn" onclick="decryptText()">Desencriptar</button>
+                </div>
+            </form>
+        </section>
+        <aside class="right-pane" id="output-pane">
+            <div id="output" class="output">
+                <img src="./img/Grafico.svg" alt="Illustration of a person searching for a diamond" class="illustration">
+                <h2>Ningún mensaje fue encontrado</h2>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <p>Desarrollado por Luigi Gamarra</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
